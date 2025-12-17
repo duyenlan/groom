@@ -55,6 +55,9 @@ export const QRSection = () => {
             bg-white
             rounded-3xl
             p-4
+            border
+            border-grey-600
+            border-dashed
             shadow-[0_20px_60px_-30px_rgba(0,0,0,0.15)]
           "
         >
@@ -94,6 +97,9 @@ export const QRSection = () => {
             bg-white
             rounded-3xl
             p-4
+            border
+            border-grey-600
+            border-dashed
             shadow-[0_20px_60px_-30px_rgba(0,0,0,0.15)]
           "
         >

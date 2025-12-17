@@ -160,7 +160,7 @@ export const Hero = () => {
 
           <div className="flex flex-col items-center">
             <span className="text-sm font-semibold tracking-widest uppercase">Tháng 01</span>
-            <span className="text-5xl font-semibold py-2">04</span>
+            <span className="text-5xl font-semibold py-4 md:py-2">04</span>
             <span className="text-sm font-semibold tracking-widest uppercase">2026</span>
           </div>
 
@@ -175,7 +175,7 @@ export const Hero = () => {
           initial="hidden"
           animate="show"
           custom={1.5}
-          className="text-gray-700 text-xs mt-1"
+          className="text-gray-700 text-xs mt-2 md:mt-1"
         >(nhằm ngày 16 tháng 11 năm Ất Tỵ)</motion.div>
 
         {/* BLOCK 5 */}

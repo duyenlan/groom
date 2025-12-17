@@ -17,6 +17,7 @@ export default function InvitationPage() {
 
   const playlist = [
     '/music/Angel_Baby.mp3',
+    '/music/Lover.mp3',
     '/music/247_365_elijah_woods.mp3',
     '/music/UntilIFoundYou.mp3',
   ];

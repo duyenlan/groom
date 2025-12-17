@@ -72,8 +72,8 @@ export const QRSection = () => {
             Chú rể
           </p>
 
-          <p className="mt-2 font-script text-xl text-primary">
-            Khoa Trường
+          <p className="mt-2 uppercase font-script text-xl text-primary">
+            Vo Khoa Truong
           </p>
 
           <p className="mt-2 text-sm tracking-widest uppercase text-text/60">
@@ -114,8 +114,8 @@ export const QRSection = () => {
             Cô dâu
           </p>
 
-          <p className="mt-2 font-script text-xl text-primary">
-            Kiều Loan
+          <p className="mt-2 uppercase font-script text-xl text-primary">
+            Vu Thi Kieu Loan
           </p>
 
           <p className="mt-2 text-sm tracking-widest uppercase text-text/60">

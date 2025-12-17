@@ -31,14 +31,14 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
           code: ({ className, children, ...props }) => {
             const match = /language-(\w+)/.exec(className || "");
             return match ? (
-              <pre className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto my-4">
+              <pre className="bg-gray-100 p-4 rounded-lg overflow-x-auto my-4">
                 <code className={className} {...props}>
                   {children}
                 </code>
               </pre>
             ) : (
               <code
-                className="bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm"
+                className="bg-gray-100 px-1.5 py-0.5 rounded text-sm"
                 {...props}
               >
                 {children}

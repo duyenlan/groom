@@ -2,15 +2,15 @@ import { siteName } from "@/config";
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-white">
       <div className="max-w-6xl mx-auto py-4">
 
         {/* Bottom Bar */}
-        <div className="pt-6 border-t border-gray-200 dark:border-gray-800">
+        <div className="pt-6 border-t border-gray-200">
           {/* <h3 className="text-center text-lg font-semibold text-primary dark:text-white mb-2">
             {siteName}
           </h3> */}
-          <p className="text-center text-gray-500 dark:text-gray-400 text-[10px]">
+          <p className="text-center text-gray-500 text-[10px]">
             &copy; {new Date().getFullYear()} {siteName}. All rights reserved.
           </p>
 
@@ -18,7 +18,7 @@ export default function Footer() {
             href="https://github.com/duyenlan151"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex justify-center items-center gap-1 mt-3 text-[10px] text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
+            className="flex justify-center items-center gap-1 mt-3 text-[10px] text-gray-400 hover:text-gray-500"
           >
             <span>By</span>
             <span className="sr-only">GitHub</span>

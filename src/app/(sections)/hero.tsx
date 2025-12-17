@@ -139,7 +139,7 @@ export const Hero = () => {
           className="mt-6 text-center"
         >
           <p className="text-sm tracking-[0.1em] uppercase text-[#14240f]">
-            Trân trọng kính mời <br/><span className="mt-3 text-md font-work-sans font-bold tracking-wide text-primary">Anh Chị</span>
+            Trân trọng kính mời <br/><span className="mt-3 text-md font-work-sans font-bold tracking-wide text-primary">Anh / Chị / Em</span>
           </p>
 
           <p className="mt-1 font-script text-xs uppercase text-[#14240f] tracking-[0.1em]">

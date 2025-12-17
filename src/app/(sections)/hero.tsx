@@ -154,7 +154,7 @@ export const Hero = () => {
           initial="hidden"
           animate="show"
           custom={1.5}
-          className="mt-3 flex items-center gap-6 -ml-2"
+          className="mt-5 md:mt-3 flex items-center gap-6 -ml-2"
         >
           <div className="text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-4">Chủ nhật</div>
 
@@ -164,8 +164,8 @@ export const Hero = () => {
             <span className="text-sm font-semibold tracking-widest uppercase">2026</span>
           </div>
 
-          <div className="relative text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-6">
-            <span className="absolute -top-5 text-xs left-1/2 -translate-x-1/2">Vào lúc</span>
+          <div className="relative text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-3 md:px-6">
+            <span className="absolute -top-5 text-xs left-1/2 -translate-x-1/2 whitespace-nowrap">Vào lúc</span>
             10 Giờ 30
           </div>
         </motion.div>

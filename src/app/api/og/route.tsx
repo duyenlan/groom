@@ -7,8 +7,8 @@ export async function GET() {
       <div
         style={{
           fontSize: 40,
-          color: "black",
-          background: "white",
+          color: "white",
+          background: "#c12927",
           width: "100%",
           height: "100%",
           padding: "50px 200px",

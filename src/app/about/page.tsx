@@ -122,7 +122,7 @@ export default function About() {
               Get Started
             </Link>
             <Link
-              href="https://github.com/yourusername/seo-nextjs-starter"
+              href="https://github.com/duyenlan151"
               className="bg-gray-800 hover:bg-gray-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               GitHub

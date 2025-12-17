@@ -1,5 +1,5 @@
 {
-  "name": "seo-nextjs-starter",
+  "name": "kt-groom-weddings",
   "version": "0.2.1",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@next/third-parties": "^15.2.3",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.26",
     "next": "15.2.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

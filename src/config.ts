@@ -1,16 +1,16 @@
 export const siteName =
-  process.env.NEXT_PUBLIC_SITE_NAME || "SEO Next.js Starter";
+  process.env.NEXT_PUBLIC_SITE_NAME || "TL | Thiệp cưới Trường & Loan | 040126";
 
 export const title =
   process.env.NEXT_PUBLIC_TITLE ||
-  "SEO Next.js Starter - A Starter Template for SEO Optimized Next.js Projects";
+  "Thiệp mời cưới Trường & Loan | 04.01.2026";
 
 export const description =
   process.env.NEXT_PUBLIC_DESCRIPTION ||
-  "A simple and easy-to-use starter template for building SEO optimized Next.js applications with best practices and performance in mind.";
+  "Trân trọng kính mời bạn đến chung vui trong ngày cưới của Trường và Loan, vào Chủ nhật ngày 04 tháng 01 năm 2026 (tức ngày 16 tháng 11 năm Ất Tỵ).";
 
 // Last baseURL
-const defaultBaseURL = "https://seo-nextjs-starter.vercel.app";
+const defaultBaseURL = "https://khoatruong-kieuloan-040126.vercel.app";
 
 // Vercel baseURL, make sure it's a valid URL
 const VERCEL_URL =

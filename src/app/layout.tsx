@@ -35,11 +35,12 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  icons: {
-    icon: "/icon?<generated>",
-    shortcut: "/icon?<generated>",
-    apple: "/icon?<generated>",
-  },
+  icons: [
+    { rel: "icon", sizes: "16x16", url: "/favicon-16x16.png" },
+    { rel: "icon", sizes: "32x32", url: "/favicon-32x32.png" },
+    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
+    { rel: "manifest", url: "/site.webmanifest" },
+  ],
   alternates: {
     canonical: baseURL,
   },

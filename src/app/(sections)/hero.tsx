@@ -126,7 +126,7 @@ export const Hero = () => {
           className="mt-8 font-halimun"
         >
           <h1 className="font-halimun text-3xl md:text-4xl text-[#2f3e2e]">
-            Truong 🌸 Loan
+            Trường & Loan
           </h1>
         </motion.div>
 

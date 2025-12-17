@@ -123,7 +123,7 @@ export const Hero = () => {
           initial="hidden"
           animate="show"
           custom={0.7}
-          className="mt-8 font-halimun"
+          className="mt-6 font-halimun"
         >
           <h1 className="font-halimun text-3xl md:text-4xl text-[#2f3e2e]">
             Trường & Loan
@@ -139,7 +139,7 @@ export const Hero = () => {
           className="mt-6 text-center"
         >
           <p className="text-sm tracking-[0.1em] uppercase text-[#14240f]">
-            Trân trọng kính mời <br/><span className="mt-3 text-md font-work-sans font-bold tracking-wide text-primary">Bạn</span>
+            Trân trọng kính mời <br/><span className="mt-3 text-md font-work-sans font-bold tracking-wide text-primary">Anh Chị</span>
           </p>
 
           <p className="mt-1 font-script text-xs uppercase text-[#14240f] tracking-[0.1em]">
@@ -154,7 +154,7 @@ export const Hero = () => {
           initial="hidden"
           animate="show"
           custom={1.5}
-          className="mt-6 flex items-center gap-6 -ml-2"
+          className="mt-3 flex items-center gap-6 -ml-2"
         >
           <div className="text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-4">Chủ nhật</div>
 
@@ -164,7 +164,10 @@ export const Hero = () => {
             <span className="text-sm font-semibold tracking-widest uppercase">2026</span>
           </div>
 
-          <div className="text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-6">11 giờ</div>
+          <div className="relative text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-6">
+            <span className="absolute -top-5 text-xs left-1/2 -translate-x-1/2">Vào lúc</span>
+            10 Giờ 30
+          </div>
         </motion.div>
 
         <motion.div
@@ -172,8 +175,8 @@ export const Hero = () => {
           initial="hidden"
           animate="show"
           custom={1.5}
-          className="text-gray-700 text-sm mt-2"
-        >(Nhằm ngày 16 tháng 11 năm Ất Tỵ)</motion.div>
+          className="text-gray-700 text-xs mt-1"
+        >(nhằm ngày 16 tháng 11 năm Ất Tỵ)</motion.div>
 
         {/* BLOCK 5 */}
         <motion.div
@@ -181,11 +184,20 @@ export const Hero = () => {
           initial="hidden"
           animate="show"
           custom={1.9}
-          className="mt-8 space-y-2"
+          className="mt-4 space-y-2"
         >
-          <p className="text-xs tracking-widest font-bold uppercase text-gray-700">
-            Tây Hoà, Đắk Lắk (Phú Yên)
-          </p>
+          <motion.a
+            variants={fadeBlock}
+            custom={0.4}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true }}
+            href="https://maps.app.goo.gl/ETngtzuyMujPkbkz5"
+            target="_blank"
+            className="text-sm uppercase text-primary tracking-widest leading-3 font-bold uppercase text-gray-700"
+          >
+            Nhà hàng sông Hương<br/> (Phú Diễn Ngoài, Hoà Thịnh, Đắk Lắk)
+          </motion.a>
 
           <p className="mt-4 font-halimun text-sm text-gray-600">
             Reception to follow

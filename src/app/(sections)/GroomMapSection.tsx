@@ -47,9 +47,9 @@ export const GroomMapSection = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="mt-4 max-w-md mx-auto text-sm font-sf text-text/80 leading-relaxed tracking-widest"
+        className="mt-4 max-w-md font-work-sans mx-auto text-md text-text/80 leading-relaxed tracking-widest"
       >
-        Tây Hoà, Đắk Lắk (Phú Yên)
+        Nhà hàng sông Hương <br/> (Phú Diễn Ngoài, Hoà Thịnh, Đắk Lắk)
       </motion.p>
 
       {/* MAP */}
@@ -70,11 +70,12 @@ export const GroomMapSection = () => {
         "
       >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248889.27905673522!2d109.00109175776149!3d12.914470566491218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316fdde70ebf3a27%3A0x103b414890d2056a!2zVMOieSBIw7JhLCBQaMO6IFnDqm4sIFZp4buHdCBOYW0!5e1!3m2!1svi!2s!4v1765956508191!5m2!1svi!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19406.045892549973!2d109.22840353167258!3d12.981835607348659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316fe70021d0e121%3A0xecdd88a02a39f608!2zbmjDoCBow6BuZyBTw7RuZyBIxrDGoW5n!5e0!3m2!1svi!2s!4v1765976754806!5m2!1svi!2s"
           className="w-full h-full border-0"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19406.045892549973!2d109.22840353167258!3d12.981835607348659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316fe70021d0e121%3A0xecdd88a02a39f608!2zbmjDoCBow6BuZyBTw7RuZyBIxrDGoW5n!5e0!3m2!1svi!2s!4v1765976754806!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" /> */}
       </motion.div>
 
       {/* OPEN MAP BUTTON */}
@@ -84,7 +85,7 @@ export const GroomMapSection = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        href="https://maps.app.goo.gl/FZKFsAEqNYzzLtEz9"
+        href="https://maps.app.goo.gl/ETngtzuyMujPkbkz5"
         target="_blank"
         className="
           inline-block

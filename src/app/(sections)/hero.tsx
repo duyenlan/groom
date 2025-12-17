@@ -161,7 +161,7 @@ export const Hero = () => {
           <div className="flex flex-col items-center">
             <span className="text-sm font-semibold tracking-widest uppercase">Tháng 01</span>
             <span className="text-5xl font-semibold py-4 md:py-2">04</span>
-            <span className="text-sm font-semibold tracking-widest uppercase">2026</span>
+            <span className="text-lg font-semibold tracking-widest uppercase">2026</span>
           </div>
 
           <div className="relative text-sm font-semibold tracking-widest uppercase border-t border-b py-2 px-3 md:px-6">

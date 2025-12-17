@@ -47,7 +47,7 @@ export const GroomMapSection = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="mt-4 max-w-md font-work-sans mx-auto text-md text-text/80 leading-relaxed tracking-widest"
+        className="mt-4 max-w-md uppercase font-sf mx-auto text-md text-text/80 leading-relaxed tracking-widest"
       >
         Nhà hàng sông Hương <br/> (Phú Diễn Ngoài, Hoà Thịnh, Đắk Lắk)
       </motion.p>

@@ -20,6 +20,13 @@ export const MusicButton = ({ playing, onToggle }: MusicButtonProps) => {
         flex items-center justify-center
       "
     >
+
+      {playing && (
+        <div className="
+          pulse-ring absolute inset-0 rounded-full border-2
+          border-primary/40 animate-pulse-slow
+        "></div>
+      )}
       {/* Pulse */}
       {playing && (
         <span className="absolute inset-0 rounded-full border-2 border-primary/30 animate-pulse-slow" />

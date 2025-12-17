@@ -58,10 +58,10 @@ export const QRSection = () => {
             shadow-[0_20px_60px_-30px_rgba(0,0,0,0.15)]
           "
         >
-          <Image
+          <img
             src="/images/qr-groom.jpg"
             alt="QR chú rể"
-            fill
+          
             className="mx-auto w-40 h-40 rounded-2xl"
           />
 
@@ -97,10 +97,10 @@ export const QRSection = () => {
             shadow-[0_20px_60px_-30px_rgba(0,0,0,0.15)]
           "
         >
-          <Image
+          <img
             src="/images/qr-bride.jpg"
             alt="QR cô dâu"
-            fill
+            
             className="mx-auto w-40 h-40 rounded-2xl"
           />
 

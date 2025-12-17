@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     url: baseURL,
     images: [
       {
-        url: "/og-01.png",
+        url: "/og.png",
         alt: `${siteName} Open Graph Image`,
       },
     ],

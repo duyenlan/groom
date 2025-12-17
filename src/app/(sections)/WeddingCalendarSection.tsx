@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { RippleButton } from "../components/RippleButton";
-import Image from "next/image";
+// import Image from "next/image";
 
 const weddingDate = new Date("2026-01-04T11:00:00");
 

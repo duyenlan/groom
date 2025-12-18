@@ -8,7 +8,7 @@ export const usePlaylistAudio = (playlist: string[]) => {
   const [index, setIndex] = useState(0);
 
   // Shuffle playlist 1 lần
-  const shuffled = useRef([...playlist].sort(() => Math.random() - 0.5));
+  const shuffled = useRef([...playlist]);
 
   useEffect(() => {
     const audio = new Audio(shuffled.current[0]);

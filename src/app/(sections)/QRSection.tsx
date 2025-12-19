@@ -119,11 +119,11 @@ export const QRSection = () => {
           </p>
 
           <p className="mt-2 text-sm tracking-widest uppercase text-text/60">
-            Vietcombank - 1013359643
+            Vietcombank - 0091000637857
           </p>
 
           <CopyAccountButton
-            value="1013359643"
+            value="0091000637857"
             label="Copy số tài khoản"
           />
         </motion.div>
